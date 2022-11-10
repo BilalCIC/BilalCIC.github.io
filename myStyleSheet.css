@@ -40,9 +40,9 @@ body {
   }
   
   .content {
-    background-color: #ddd;
+    /* background-color: #ddd; */
     padding: 2px 0px;
-    height: 100px;
+    height: 500px;
   }
   
   .footer {
@@ -79,7 +79,7 @@ body {
 
   .flex-item{
     flex-shrink: 1;
-    background-color: green;
+    background-color: lightblue;
     width: 100px;
     margin: 10px;
     text-align: center;
