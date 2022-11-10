@@ -5,7 +5,7 @@
 
 .header {
   text-align: center;
-  padding: 20px 30px;
+  padding: 1% 10px;
   text-decoration: wavy;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,32 +23,49 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
   }
   
   .topnav a {
-    float: left;
-    display: block;
+    /* float: left; */
+    /* display: block; */
     color: #f2f2f2;
-    text-align: center;
+    /* text-align: center; */
     padding: 14px 16px;
     text-decoration: none;
+    font-size: large;
+    
   }
   
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+  
   }
   
-  .content {
+  .content1 {
     /* background-color: #ddd; */
-    padding: 2px 0px;
-    height: 500px;
+    height: 50px;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    
+  }
+
+  .content2 {
+    /* background-color: #ddd; */
+    height: 50px;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
   }
   
   .footer {
     background-color: #f1f1f1;
     padding: 0px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
   }
