@@ -37,6 +37,10 @@ body {
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+  
   }
   
   .content {
@@ -52,13 +56,83 @@ body {
     bottom: 0px;
     width: 100%;
   }
-
-  .parallax {
+  
+  .parallax5 {
     /* The image used */
     background-image: url('background1-icons.jpeg');
   
     /* Full height */
-    height: 100%; 
+    height: 5%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax10 {
+    /* The image used */
+    background-image: url('background1-icons.jpeg');
+  
+    /* Full height */
+    height: 10%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax20 {
+    /* The image used */
+    background-image: url('background1-icons.jpeg');
+  
+    /* Full height */
+    height: 20%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax30 {
+    /* The image used */
+    background-image: url('background1-icons.jpeg');
+  
+    /* Full height */
+    height: 30%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax40 {
+    /* The image used */
+    background-image: url('background1-icons.jpeg');
+  
+    /* Full height */
+    height: 40%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax50 {
+    /* The image used */
+    background-image: url('background1-icons.jpeg');
+  
+    /* Full height */
+    height: 50%; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -68,7 +142,7 @@ body {
   }
 
   .flex-container {
-    height: 200px;
+    height: 300;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -78,9 +152,10 @@ body {
 }
 
   .flex-item{
-    flex-shrink: 1;
+    flex-grow: 5;
     background-color: lightblue;
-    width: 100px;
+    width: 30%;
+    height: 100px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
