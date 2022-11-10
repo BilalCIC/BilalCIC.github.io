@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* font-size: 16px; */
-    line-height: 50%;
+    /* line-height: 50%; */
 }
 
 p {
@@ -55,11 +55,24 @@ h2 {
     display: block;
   
   }
+
+  label {
+    margin-left: 10px;
+  }
+
+  input {
+    margin-left: 10px;
+    font-size: larger;
+    border-color: white;
+}
   
   .content {
     /* background-color: #ddd; */
     padding: 2px 0px;
     height: 800px;
+    font-size: 26px;
+    line-height: 150%;
+
   }
   
   .footer {
@@ -196,3 +209,22 @@ h2 {
     font-size: 20px;
     line-height: normal;
   }
+
+  input:valid {
+    border-color: green;
+}
+input:invalid {
+    border-color: red;
+}
+
+.testbutton {
+    padding: 10px;
+    background-color: rgb(111, 109, 109);
+    border-radius: 5px;
+
+}
+.testbutton:hover {
+    padding: 7px;
+    background-color: grey;
+    cursor:crosshair;
+}
