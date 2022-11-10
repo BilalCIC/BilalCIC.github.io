@@ -13,13 +13,14 @@ p {
   text-align: center;
   font-family: monospace;
   padding: 20px 30px;
-  color: black;
+  color: white;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 0px;
   display: block;
   block-size: 100%;
-  background-color: lightblue;
+  background-color: #000235;
+
 }
 
 body {
