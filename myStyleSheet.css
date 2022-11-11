@@ -69,7 +69,7 @@ input {
 
 .content {
   /* background-color: #ddd; */
-  padding: 2px 0px;
+  padding: 0px 0px;
   height: 800px;
   font-size: 15px;
   line-height: 150%;
@@ -296,23 +296,55 @@ a:active {
 .grid-container {
   margin-left: 10px;
   height: 40rem;
-  width: auto;
+  width: 100%;
   display: grid;
   /* grid-template-rows: 100px 100px 100px; */
   grid-template-rows: repeat(2, 20rem);
-  grid-template-columns: repeat(5, 16rem);
+  grid-template-columns: repeat(4, 18%);
   row-gap: 10px;
   column-gap: 10px;
   justify-content: space-around;
 }
+
 .grid-item {
   background-color: grey;
   color: white;
-  /* border: 3px solid green; */
-  width: 15rem;
-  height: 18rem;
+  border: 5px solid black;
+  width: 16.6rem;
+  height: 18.6rem;
   text-align: center;
   line-height: normal;
   font-size: 10px;
+}
 
+.grid-item:hover {
+  animation-name: example;
+  animation-duration: 8s;
+}
+
+@keyframes example {
+  0%  {border-color: red;}
+  10% {border-color: orange}
+  20% {border-color: blue;}
+  30% {border-color: green;}
+  40% {border-color: red;}
+  50% {border-color: orange;}
+  60% {border-color: blue;}
+  70% {border-color: green;}
+  80% {border-color: red;}
+  90% {border-color: orange;}
+  100% {border-color: blue;}
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /* resize: vertical; */
 }
